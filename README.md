@@ -10,6 +10,8 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --![image](https://user-images.githubusercontent.com/45406197/183586957-40938a56-1c19-4f25-8e97-93a024acaf2e.png)
 создаем таблицу 
 ![image](https://user-images.githubusercontent.com/45406197/183666290-a3c098f2-61fc-40ff-8b3b-f9dea5a11ae8.png)
+видим стринцу с кешем
+![image](https://user-images.githubusercontent.com/45406197/183667882-57ff9619-e9a0-451f-8b10-dec7404fe491.png)
 
 10 минут c помощью утилиты pgbench подавайте нагрузку.
 Измерьте, какой объем журнальных файлов был сгенерирован за это время. Оцените, какой объем приходится в среднем на одну контрольную точку.
