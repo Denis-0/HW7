@@ -14,6 +14,7 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 
 видим стринцу с кешем
 --![image](https://user-images.githubusercontent.com/45406197/183667882-57ff9619-e9a0-451f-8b10-dec7404fe491.png)
+
 прогрев кеша
 --![image](https://user-images.githubusercontent.com/45406197/183670212-53b06b73-fec6-4898-8c0b-037bf3647b97.png)
 
