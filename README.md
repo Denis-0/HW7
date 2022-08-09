@@ -1,6 +1,9 @@
 Настройте выполнение контрольной точки раз в 30 секунд.
 --можно настроить в postgresql.conf
 --![image](https://user-images.githubusercontent.com/45406197/183584170-3438fe82-e8b6-4751-8776-1ffb37fd6801.png)
+-- проверим размер кеша
+SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
+--![image](https://user-images.githubusercontent.com/45406197/183586350-3e08b296-1bc1-4559-b35a-8f0eb3357f7d.png)
 
 10 минут c помощью утилиты pgbench подавайте нагрузку.
 Измерьте, какой объем журнальных файлов был сгенерирован за это время. Оцените, какой объем приходится в среднем на одну контрольную точку.
