@@ -4,6 +4,8 @@
 -- проверим размер кеша
 SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --![image](https://user-images.githubusercontent.com/45406197/183586350-3e08b296-1bc1-4559-b35a-8f0eb3357f7d.png)
+--рестартуем кластер
+--![image](https://user-images.githubusercontent.com/45406197/183586762-ab19af8d-4028-498f-a678-b15ea4f0a15c.png)
 
 10 минут c помощью утилиты pgbench подавайте нагрузку.
 Измерьте, какой объем журнальных файлов был сгенерирован за это время. Оцените, какой объем приходится в среднем на одну контрольную точку.
