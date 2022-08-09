@@ -8,6 +8,7 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --![image](https://user-images.githubusercontent.com/45406197/183586762-ab19af8d-4028-498f-a678-b15ea4f0a15c.png)
 уменьшим количество буферов для наблюдения
 --![image](https://user-images.githubusercontent.com/45406197/183586957-40938a56-1c19-4f25-8e97-93a024acaf2e.png)
+
 создаем таблицу 
 --![image](https://user-images.githubusercontent.com/45406197/183666290-a3c098f2-61fc-40ff-8b3b-f9dea5a11ae8.png)
 видим стринцу с кешем
