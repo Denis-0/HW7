@@ -28,6 +28,8 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --![image](https://user-images.githubusercontent.com/45406197/183676399-128a8769-3bb7-4f72-bd42-cc17890631c6.png)
 
 сложить размер файлов и поделить на количество точек - будет сколько Мб на 1 точку
+--![image](https://user-images.githubusercontent.com/45406197/183882736-197a2b10-6b6a-4f7a-b80c-f2a66a109037.png)
+
 --![image](https://user-images.githubusercontent.com/45406197/183881924-184f87c5-9a48-45eb-87ad-9af17f4a6752.png)
 --193/14 = 13.78
 
