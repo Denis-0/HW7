@@ -42,6 +42,9 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --![image](https://user-images.githubusercontent.com/45406197/183889858-1ea7a8bf-39d4-46d1-991e-bba416d38281.png)
 ![image](https://user-images.githubusercontent.com/45406197/183890007-afb1cf7b-fcd5-4025-8aa9-07fdc8bf7113.png)
 
+выключил сервер и изменил пару байт
+--![image](https://user-images.githubusercontent.com/45406197/183915493-41110bce-76cc-4dd0-b078-e31c45998051.png)
+
 
 Объясните полученный результат.
 Создайте новый кластер с включенной контрольной суммой страниц. Создайте таблицу. Вставьте несколько значений. Выключите кластер. 
