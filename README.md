@@ -39,6 +39,7 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 
 Сравните tps в синхронном/асинхронном режиме утилитой pgbench. 
 --![image](https://user-images.githubusercontent.com/45406197/183889682-0ed0a20b-f253-494b-98de-64023e5192ee.png)
+--![image](https://user-images.githubusercontent.com/45406197/183889858-1ea7a8bf-39d4-46d1-991e-bba416d38281.png)
 
 
 Объясните полученный результат.
