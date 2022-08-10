@@ -35,6 +35,7 @@ SELECT setting, unit FROM pg_settings WHERE name = 'shared_buffers';
 --193/14 = 13.78
 
 ![image](https://user-images.githubusercontent.com/45406197/183889266-9ec59f25-5c23-4d06-85b3-145614eee04c.png)
+![image](https://user-images.githubusercontent.com/45406197/183889389-1a858a3d-2427-4b1b-9b9d-4cd2745ca1b4.png)
 
 
 Оцените, какой объем приходится в среднем на одну контрольную точку.
